@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/main">
+        <file>resouces/main.png</file>
+        <file>resouces/main-m.png</file>
+    </qresource>
+</RCC>

@@ -12,6 +12,7 @@ PreProcess::PreProcess(QWidget *parent):
 	ui(new Ui::PreProcess)
 {
 	ui->setupUi(this);
+	this->setWindowFlags(Qt::Dialog|Qt::WindowCloseButtonHint|Qt::WindowMinimizeButtonHint|Qt::WindowMaximizeButtonHint);
 }
 
 PreProcess::~PreProcess()
